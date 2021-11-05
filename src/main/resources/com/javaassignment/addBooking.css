@@ -1,0 +1,62 @@
+
+.addButton{
+    -fx-padding: 0 30 0 30;
+    -fx-background-color:#050505;
+    -fx-background-radius: 30;
+    -fx-text-fill:white;
+    -fx-cursor:hand;
+}
+.addButton:hover{
+    -fx-background-color:#363636;
+}
+
+.label{
+    -fx-text-fill:white;
+}
+
+.date-picker{
+    -fx-background-color:none;
+}
+
+.date-picker .text-field{
+    -fx-text-fill:black;
+    -fx-font-size:12pt;
+}
+
+.combo-box{
+    -fx-background-color: white;
+}
+
+.combo-box .arrow-button {
+	-fx-background-color: #131313;
+	-fx-background-radius: 0;
+}
+
+
+.date-picker .arrow-button {
+	-fx-background-color: #131313;
+	-fx-background-radius: 0;
+}
+.date-picker .cell:hover {
+	-fx-background-color: #131313;
+	-fx-text-fill:white;
+}
+
+.date-picker .cell:focused {
+	-fx-background-color: grey;
+	-fx-text-fill:black;
+}
+
+
+.date-picker-popup .month-year-pane {
+	-fx-background-color: #131313;
+}
+
+.date-picker-popup .month-year-pane .label {
+	-fx-text-fill: white;
+}
+
+.date-picker .selected {
+	-fx-background-color: #131313;
+	-fx-text-fill: white;
+}

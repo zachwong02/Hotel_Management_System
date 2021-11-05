@@ -1,0 +1,28 @@
+.root{
+    -fx-background-color: linear-gradient(#FF0000,#550000);
+}
+.anchorpane{
+    -fx-background-color: #131313;
+}
+
+.logoutButton{
+    -fx-background-color:none;
+    -fx-text-fill:white;
+}
+
+.logoutButton:hover{
+    -fx-background-radius:15px;
+    -fx-background-color: #050505;
+}
+
+
+.guestList .button{
+    -fx-background-color:#050505;
+    -fx-background-radius: 30;
+    -fx-text-fill:white;
+    -fx-cursor:hand;
+    -fx-padding: 10 30 10 30;
+}
+.guestList .button:hover{
+    -fx-background-color:#131313;
+}

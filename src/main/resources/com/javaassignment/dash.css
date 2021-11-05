@@ -1,0 +1,17 @@
+.anchorpane{
+    -fx-background-color:#131313;
+}
+
+.button{
+    -fx-background-color:#131313;
+    -fx-background-radius:30px;
+}
+
+.button:hover{
+    -fx-background-color:#050505;
+}
+
+.logoutButton:hover{
+    -fx-background-radius:15px;
+
+}

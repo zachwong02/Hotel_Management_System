@@ -1,0 +1,77 @@
+.root{
+    -fx-background-color: linear-gradient(#FF0000,#550000);
+}
+.anchorpane{
+    -fx-background-color: #131313;
+}
+
+.table-view{
+    -fx-background-color: #131313;
+}
+
+.table-view .column-header{
+    -fx-background-color:#050505;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header .label{
+    -fx-text-fill: white;
+}
+
+.table-view .column-header .table-cell{
+    -fx-background-color:#050505;
+
+}
+
+.date-picker{
+    -fx-border-width:0 0 1 0;
+    -fx-border-color:black;
+    -fx-background-color:none;
+}
+
+.date-picker .text-field{
+    -fx-control-inner-background:none; /* cause error but doesn't affect system*/
+    -fx-text-fill:white;
+    -fx-font-size:12pt;
+}
+
+
+.date-picker .arrow-button {
+	-fx-background-color: #131313;
+	-fx-background-radius: 0;
+}
+.date-picker .cell:hover {
+	-fx-background-color: #131313;
+	-fx-text-fill:white;
+}
+
+.date-picker .cell:focused {
+	-fx-background-color: grey;
+	-fx-text-fill:black;
+}
+
+
+.date-picker-popup .month-year-pane {
+	-fx-background-color: #131313;
+}
+
+.date-picker-popup .month-year-pane .label {
+	-fx-text-fill: white;
+}
+
+.date-picker .selected {
+	-fx-background-color: #131313;
+	-fx-text-fill: white;
+}
+
+
+.logoutButton{
+    -fx-background-color:none;
+    -fx-text-fill:white;
+}
+
+.logoutButton:hover{
+    -fx-background-radius:15px;
+    -fx-background-color: #050505;
+}
+
